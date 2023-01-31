@@ -1,0 +1,20 @@
+{
+  "email": "user23@example.com",
+  "password": "password23",
+  "name": "User Twenty",
+  "gender": "female",
+  "birthDate": "2003-08-01T00:00:00.000Z",
+  "age": 19,
+  "orientation": "bisexual",
+  "description": "I am user twenty, a music lover who enjoys listening and playing different genres of music.",
+  "interests": ["music", "listening", "playing"],
+  "zodiacSign": "Leo",
+  "education": "High school diploma",
+  "ageRangeFrom": 20,
+  "ageRangeTo": 30,
+  "address": [
+    { "lat": 33.4574, "lng": -112.077, "_id": "63d7223750ad0ac0e927dee1" }
+  ],
+  "city": "Central City, Phoenix",
+  "__v": 0
+}

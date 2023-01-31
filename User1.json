@@ -1,0 +1,21 @@
+{
+  "email": "user21@example.com",
+  "password": "password21",
+  "name": "User Twenty One",
+  "gender": "male",
+  "birthDate": "2000-01-01T00:00:00.000Z",
+  "orientation": "straight",
+  "description": "I am user twenty one, a fun loving person who loves to travel and try new things.",
+  "interests": ["travel", "adventure", "music"],
+  "zodiacSign": "Capricorn",
+  "education": "Bachelor's degree",
+  "ageRangeFrom": 18,
+  "ageRangeTo": 35,
+  "address": [
+    { "lat": 54.334289, "lng": 18.197599, "_id": "63d7bb9441ca530e37559c8d" }
+  ],
+  "city": "Kartuzy, Powiat kartuski",
+  "matches": ["63d6e39a83b6eaf8d1e70389", "63d6f19850ad0ac0e927ded2"],
+  "__v": 0,
+  "age": 23
+}

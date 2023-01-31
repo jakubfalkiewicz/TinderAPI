@@ -1,9 +1,11 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const app = express();
+const cors = require("cors");
 // middleware
 app.use(express.json());
 app.use(express.urlencoded());
+app.use(cors());
 
 const users = require("./routes/users");
 const messages = require("./routes/messages");
@@ -20,13 +22,14 @@ const dbConnData = {
 
 // Connect to MongoDB
 mongoose.connect(
-  `mongodb://${dbConnData.host}:${dbConnData.port}/${dbConnData.database}`,
+  // `mongodb://${dbConnData.host}:${dbConnData.port}/${dbConnData.database}`,
+  `${process.env.RAILWAY_MONGO_DB}`,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   }
 );
 // Start server
-app.listen(3000, () => {
-  console.log("Server started on port 3000");
+app.listen(4000, () => {
+  console.log("Server started on port 4000");
 });
